@@ -1,0 +1,68 @@
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+p{
+    line-height: 2;
+}
+img {
+    max-width: 50%;
+}
+/*footer*/
+footer{
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+/*utilities*/
+.btn{
+    display: block;
+    width: 180px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10xp;
+    padding: 20px;
+    font-size: 14xp;
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+/*header*/
+.site-init{
+    background-image: url(./img/coffee-images-main/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+/*main*/
+main{
+    width: 60;
+    margin-right: 20px;
+}
+
+/*blogs*/
+
+.blog-container{
+    margin-top: 20px;
+}
+.blog-container h3{
+    margin-top: 20px;
+}
+.blog-container p{
+    margin-top: 20px;
+}
+.blog-container .btn{
+    background-color: black;
+}
