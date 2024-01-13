@@ -12,17 +12,28 @@ p{
 img {
     max-width: 50%;
 }
+h1{
+    color: white;
+}
 /*footer*/
 footer{
     text-align: center;
+    width: 100;
     padding: 5px;
-    background-color: black;
+    background-color: rgb(10, 9, 9);
     color: white;
+    display: flex;
+    justify-content: space-around;/*horizontal*/
+    align-items: center;/*vertical*/
+    height: 200px;
+}
+footer, li {
+    margin:10px;
 }
 /*utilities*/
 .btn{
     display: block;
-    width: 180px;
+    width: 100px;
     background-color: brown;
     color: white;
     text-decoration: none;
@@ -46,10 +57,26 @@ footer{
     text-align: center;
     color: white;
 }
+.header-flex{
+    display: flex;
+    justify-content: space-around;/*horizontal*/
+    align-items: center;/*vertical*/
+    height: 200px;
+}
+.secondary-header{
+    background-color: black;
+}
+
 /*main*/
 main{
     width: 60;
     margin-right: 20px;
+}
+/*container*/
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*blogs*/
@@ -65,4 +92,40 @@ main{
 }
 .blog-container .btn{
     background-color: black;
+}
+
+/*About Us*/
+.about-container{
+    margin: auto;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+/*contact*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-inputs{
+    background-color: white;
+    padding: 10%;
+    margin-top: -50%;
+}
+.form-inputs .btn{
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+}
+.form-inputs div{
+    margin: 20px;
+}
+.form-inputs input,
+.form-inputs textarea{
+    width: 70%;
+    padding: 5px;
+}
+.form-inputs label{
+    display: inline-block;
+    width: 80px;
 }
